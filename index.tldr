@@ -1,0 +1,708 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 4,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 6,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 5,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 3,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 2,
+			"com.tldraw.shape.geo": 10,
+			"com.tldraw.shape.note": 9,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 0,
+			"com.tldraw.shape.arrow": 5,
+			"com.tldraw.shape.highlight": 1,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 4,
+			"com.tldraw.shape.video": 2,
+			"com.tldraw.binding.arrow": 0
+		}
+	},
+	"records": [
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": 632.1667480468751,
+			"y": 499.16666666666663,
+			"lastActivityTimestamp": 1741935470471,
+			"meta": {}
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:color": "black",
+				"tldraw:geo": "rectangle"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "default",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 1062,
+				"h": 566
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1.5,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		},
+		{
+			"editingShapeId": "shape:Bl-ap1w2xA2QDdYO3Udbj",
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:Bl-ap1w2xA2QDdYO3Udbj"
+			],
+			"hoveredShapeId": "shape:Bl-ap1w2xA2QDdYO3Udbj",
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": -37.500000000000114,
+			"y": -159.16666666666666,
+			"z": 1,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:XoCR9IZ3kNwzk64NgqZLN",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 536.6354370117188,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "react.createElement -> takes 3 arguments"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:G7131rV8KX7xAXyeU0ciD",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 14.666664123535156,
+			"y": 64.00001525878906,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:R744BrhqvMMqTJumcssq8",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 828.2396240234375,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "eg:- const heading = react.createElement('h1' , {}, \" Hello World\");"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "now,"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "to RENDER the the heading element we use "
+								},
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "highlight"
+										}
+									],
+									"text": "ReactDom"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:G7131rV8KX7xAXyeU0ciD",
+			"index": "a2Bhz",
+			"typeName": "shape"
+		},
+		{
+			"x": 28.00000762939453,
+			"y": 218.6666717529297,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:1cx4wfBmAEYVhwevHftuu",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 918.3541870117188,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "eg:- const root = ReactDom.createRoot(document.getElementById('root'))"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\troot.render(heading);"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:G7131rV8KX7xAXyeU0ciD",
+			"index": "a33PM",
+			"typeName": "shape"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:G7131rV8KX7xAXyeU0ciD",
+			"type": "group",
+			"parentId": "shape:EynYkiPKAABnY29gynj6d",
+			"index": "a1",
+			"props": {},
+			"typeName": "shape"
+		},
+		{
+			"x": 588.6666107177734,
+			"y": 48.999977111816406,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:QXUyT4woe75TKbBTH9lO6",
+			"type": "arrow",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -8,
+					"y": 19.333335876464844
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "shape:EynYkiPKAABnY29gynj6d",
+			"index": "a35Xa",
+			"typeName": "shape"
+		},
+		{
+			"x": 582.6666412353516,
+			"y": 114.99998474121094,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:-Ii6yvP8oFJANR_9uu_xH",
+			"type": "arrow",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 2,
+					"y": 0
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "shape:G7131rV8KX7xAXyeU0ciD",
+			"index": "a2ot0",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:SMBdEYX3rxS7AnrttaC9e",
+			"type": "arrow",
+			"fromId": "shape:-Ii6yvP8oFJANR_9uu_xH",
+			"toId": "shape:R744BrhqvMMqTJumcssq8",
+			"props": {
+				"isPrecise": false,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.7127283847375941,
+					"y": 0.3935688654315036
+				},
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "binding:J3y5eZpTsYGOaJQIOaAMz",
+			"type": "arrow",
+			"fromId": "shape:-Ii6yvP8oFJANR_9uu_xH",
+			"toId": "shape:R744BrhqvMMqTJumcssq8",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.7277860272754343,
+					"y": 0.2546621239243585
+				},
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"x": 725.3332977294922,
+			"y": 46.33331298828125,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Ww7frWsuu8khVTcRfDYzs",
+			"type": "arrow",
+			"props": {
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": -4.666595458984375,
+					"y": 14.000030517578125
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"text": "",
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "shape:EynYkiPKAABnY29gynj6d",
+			"index": "a2BrG",
+			"typeName": "shape"
+		},
+		{
+			"x": 541.9999237060547,
+			"y": 27.666648864746094,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:40BFzrkXapsF107u14gfk",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 203.83334350585938,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 0.6402287635470717,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "name of the tag"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:EynYkiPKAABnY29gynj6d",
+			"index": "a4ANI",
+			"typeName": "shape"
+		},
+		{
+			"x": 522.0833129882812,
+			"y": 117.29628352050915,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:87OBy4-bmuVgW3deuzRU3",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 266.64861748047883,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 0.6402287635470717,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Attributes e.g:- { id : 'heading' } ,"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:EynYkiPKAABnY29gynj6d",
+			"index": "a54xk",
+			"typeName": "shape"
+		},
+		{
+			"x": 552.6665496826172,
+			"y": 131.66667938232422,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Wz_hqJIRiCqXW5CtkTFA9",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 47.44362225505801,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 0.6402287635470717,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "object"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:EynYkiPKAABnY29gynj6d",
+			"index": "a65lp",
+			"typeName": "shape"
+		},
+		{
+			"x": 687.4746293575454,
+			"y": 6.999980926513672,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Sk86OiQiyewkep2AmHbVA",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 161.3598789162986,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 0.5482215402248043,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "what should be shown "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "inside the tag"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "shape:EynYkiPKAABnY29gynj6d",
+			"index": "a70HU",
+			"typeName": "shape"
+		},
+		{
+			"x": 62.00007629394531,
+			"y": 78.33335876464844,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:EynYkiPKAABnY29gynj6d",
+			"type": "group",
+			"parentId": "page:page",
+			"index": "aG73p",
+			"props": {},
+			"typeName": "shape"
+		},
+		{
+			"x": 72.33333396911632,
+			"y": 422.83335367838544,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Bl-ap1w2xA2QDdYO3Udbj",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 939.329244470673,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 0.9519826416800643,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "reactElement(Object) => html(Browser Understands)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "this says that react element is an object and it does not render html tags but "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "instead the object is converted into the tag inside ReactDOM.render()"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aH3LA",
+			"typeName": "shape"
+		}
+	]
+}
